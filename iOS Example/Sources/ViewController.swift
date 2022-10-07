@@ -14,7 +14,6 @@ class ViewController: ThemeViewController {
         title = "ModuleKit Example"
         navigationItem.largeTitleDisplayMode = .never
 
-        tableView.registerCell(forClass: G4Cell.self)
         tableView.sectionDataSource = self
 
         tableView.backgroundColor = .clear
@@ -37,7 +36,7 @@ extension ViewController: SectionsDataSource {
 
     func buildSections() -> [SectionProtocol] {
         let languageRow = CellBuilder.selectableRow(
-                elements: [.text, .image],
+                elements: [.text, .image24],
                 tableView: tableView,
                 id: "language_settings",
                 bind: { cell in

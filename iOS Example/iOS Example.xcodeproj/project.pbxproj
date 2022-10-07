@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A39D09C2757536E0022CB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39D09A2757536E0022CB8B /* ViewController.swift */; };
 		3A39D09D2757536E0022CB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39D09B2757536E0022CB8B /* AppDelegate.swift */; };
-		3A5210892759F0B800403F75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5210812759F0B800403F75 /* Localizable.strings */; };
-		3A52108A2759F0B800403F75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5210842759F0B800403F75 /* Localizable.strings */; };
 		3A52108B2759F0B800403F75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5210872759F0B800403F75 /* Localizable.strings */; };
 		D94502FD261F98A500F6BF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94502FC261F98A500F6BF2E /* Assets.xcassets */; };
 		D945030C261F99CC00F6BF2E /* ModuleKit in Frameworks */ = {isa = PBXBuildFile; productRef = D945030B261F99CC00F6BF2E /* ModuleKit */; };
@@ -19,10 +17,10 @@
 /* Begin PBXFileReference section */
 		3A39D09A2757536E0022CB8B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A39D09B2757536E0022CB8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A5210822759F0B800403F75 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
-		3A5210852759F0B800403F75 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
 		3A5210882759F0B800403F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		D94502F5261F98A400F6BF2E /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3500A3728EFF4C70093A369 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ../ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D3500A3828EFF4D10093A369 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = ../de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D94502F5261F98A400F6BF2E /* ModuleKit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModuleKit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94502FC261F98A500F6BF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9450301261F98A500F6BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,7 +40,6 @@
 		3A5210802759F0B800403F75 /* de.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				3A5210812759F0B800403F75 /* Localizable.strings */,
 			);
 			path = de.lproj;
 			sourceTree = "<group>";
@@ -50,7 +47,6 @@
 		3A5210832759F0B800403F75 /* ru.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				3A5210842759F0B800403F75 /* Localizable.strings */,
 			);
 			path = ru.lproj;
 			sourceTree = "<group>";
@@ -75,7 +71,7 @@
 		D94502F6261F98A400F6BF2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D94502F5261F98A400F6BF2E /* iOS Example.app */,
+				D94502F5261F98A400F6BF2E /* ModuleKit Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +117,7 @@
 				D945030B261F99CC00F6BF2E /* ModuleKit */,
 			);
 			productName = "iOS Example";
-			productReference = D94502F5261F98A400F6BF2E /* iOS Example.app */;
+			productReference = D94502F5261F98A400F6BF2E /* ModuleKit Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,8 +162,6 @@
 			files = (
 				D94502FD261F98A500F6BF2E /* Assets.xcassets in Resources */,
 				3A52108B2759F0B800403F75 /* Localizable.strings in Resources */,
-				3A52108A2759F0B800403F75 /* Localizable.strings in Resources */,
-				3A5210892759F0B800403F75 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,26 +180,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3A5210812759F0B800403F75 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A5210822759F0B800403F75 /* de */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		3A5210842759F0B800403F75 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A5210852759F0B800403F75 /* ru */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		3A5210872759F0B800403F75 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3A5210882759F0B800403F75 /* en */,
+				D3500A3728EFF4C70093A369 /* ru */,
+				D3500A3828EFF4D10093A369 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -217,6 +197,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -278,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -336,18 +318,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC4MCAXJ66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.iOS-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "ModuleKit Demo";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,17 +344,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC4MCAXJ66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.iOS-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "ModuleKit Demo";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
