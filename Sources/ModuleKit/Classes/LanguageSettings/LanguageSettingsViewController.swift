@@ -56,7 +56,7 @@ extension LanguageSettingsViewController: SectionsDataSource {
 
                         return CellBuilderNew.row(
                                 rootElement: .hStack([
-                                    .image24 { component in
+                                    .image32 { component in
                                         component.imageView.image = ModuleKit.image(named: item.language)
                                     },
                                     .vStackCentered([
@@ -65,7 +65,7 @@ extension LanguageSettingsViewController: SectionsDataSource {
                                             component.textColor = .themeLeah
                                             component.text = item.name
                                         },
-                                        .margin(3),
+                                        .margin(1),
                                         .text { component in
                                             component.font = .subhead2
                                             component.textColor = .themeGray
