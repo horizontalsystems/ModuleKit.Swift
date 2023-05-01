@@ -14,7 +14,7 @@ let package = Package(
                     targets: ["ModuleKit"]),
         ],
         dependencies: [
-            .package(url: "https://github.com/horizontalsystems/ComponentKit.Swift.git", .upToNextMajor(from: "1.0.0")),
+            .package(url: "https://github.com/horizontalsystems/ComponentKit.Swift.git", .upToNextMajor(from: "2.0.0")),
             .package(url: "https://github.com/horizontalsystems/LanguageKit.Swift.git", .upToNextMajor(from: "1.0.0")),
             .package(url: "https://github.com/horizontalsystems/SectionsTableView.Swift.git", .upToNextMajor(from: "1.0.0")),
             .package(url: "https://github.com/horizontalsystems/UIExtensions.Swift.git", .upToNextMajor(from: "1.0.0")),
