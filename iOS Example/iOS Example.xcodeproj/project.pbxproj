@@ -20,6 +20,7 @@
 		3A5210882759F0B800403F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		D3500A3728EFF4C70093A369 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ../ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D3500A3828EFF4D10093A369 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = ../de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D3F3F6FC2A7A7E0F006EEF8C /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ../ro.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D94502F5261F98A400F6BF2E /* ModuleKit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModuleKit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94502FC261F98A500F6BF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9450301261F98A500F6BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				Base,
 				ru,
 				de,
+				ro,
 			);
 			mainGroup = D94502EC261F98A400F6BF2E;
 			productRefGroup = D94502F6261F98A400F6BF2E /* Products */;
@@ -186,6 +188,7 @@
 				3A5210882759F0B800403F75 /* en */,
 				D3500A3728EFF4C70093A369 /* ru */,
 				D3500A3828EFF4D10093A369 /* de */,
+				D3F3F6FC2A7A7E0F006EEF8C /* ro */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
